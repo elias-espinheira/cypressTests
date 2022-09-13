@@ -10,7 +10,7 @@ class LoginPage {
 
     // Clica no botão que acessa a página de login do site
     abraPaginaLogin() {
-        cy.visit(loginElements.botaoLogin())
+        cy.get(loginElements.botaoLogin()).click()
     }
 
     // Verifica se o botão tem o texto "Esqueceu sua senha?"

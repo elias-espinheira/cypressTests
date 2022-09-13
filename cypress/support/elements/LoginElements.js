@@ -1,5 +1,5 @@
 class LoginElements {
-    botaoLogin = () => { return 'https://edu.ultima.school/lgn/' }
+    botaoLogin = () => { return 'body > div.wrapper > header > div > div > nav > div > div.main-nav__wrapper > div > a' }
 
     campoLogin = () => { return 'user_login' }
 
